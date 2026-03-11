@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spark</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Background glow -->
+  <div class="background-glow"></div>
+
+  <!-- Main glass container -->
+  <main class="glass-container">
+    <div class="logo-wrapper">
+      <button onclick="openCard('prayermap.html')">
+Load Prayer Map
+</button>
+      <div class="flame-s">S</div>
+
+    </div>
+
+    <h1 class="title">Spark</h1>
+    <p class="subtitle">Awaken What Was Planted.<br> Grow What Was Sown.</p>
+    
+    <button id="igniteBtn" class="ignite-button">Ignite [נִיצוֹץ]</button>
+
+
+  <div id="card-container"></div> 
+    <div id="cards" class="cards hidden">
+
+      <div class="card">
+        <h2>SparkStarter</h2>
+        <p>Re-Discover your inner spark and ignite your potential.</p>
+      </div>
+
+  </main>
+
+  <!-- Sparks container -->
+  <div class="sparks-container"></div>
+  <!-- Overlay for ignition effect -->
+  <div class="ignite-overlay"></div>
+  
+  
+
+</div>
+  <!-- Companion orb -->
+  <div id="companion" class="companion-orb"></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
